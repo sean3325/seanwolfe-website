@@ -1,0 +1,14 @@
+# Site settings
+title: Sean Wolfe
+email: sean3325@gmail.com
+description: Sean Wolfe
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://seanwolfe.me" # the base hostname & protocol for your site
+twitter_username: sean3325
+github_username:  sean3325
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-assets

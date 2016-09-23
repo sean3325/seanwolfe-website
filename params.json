@@ -1,6 +1,25 @@
 {
-  "name": "Sean Wolfe",
-  "tagline": "Creating engaging and intuitive experiences for web",
-  "body": "I'v been creative director at [zivtech](https://www.zivtech.com/) since 2013 and I have over 10 years experience in web design and development. UX and usability is something that I am quite passionate about. I feel fortunate that I'm able to use my foundation in design to create engaging and intuitive experiences for web-based applications and the people that use them.\r\n\r\nSince earning my BFA in Graphic and Interactive Design from Tyler School of Art at Temple University in 2006, I’ve been fascinated with idea of using design principles to help identify and solve the complex and nuanced challenges people are faced with when navigating a website or application interface.",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
+  "name": "seanwolfe.me",
+  "description": "Creating engaging and intuitive experiences for web",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sean3325/seanwolfe-website"
+  },
+  "author": "Sean Wolfe",
+  "homepage": "http://seanwolfe.me",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-browser-sync": "^2.0.0",
+    "grunt-build-control": "^0.3.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-jekyll": "~0.4.2",
+    "grunt-modernizr": "~0.6.0",
+    "jit-grunt": "~0.9.1",
+    "load-grunt-tasks": "~0.6.0",
+    "time-grunt": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
 }

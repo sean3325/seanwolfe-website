@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="mxk7-mw5Q4wVVctQb0ckocY0eVXeDnwWsQbLwjiwBJs" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | Demonstrate. Test. Approve.</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  {% stylesheet main %}
+
+  <link rel="icon" type="image/png" href="{% asset_path 'logo.png' [resize:32x32] %}" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+</head>
