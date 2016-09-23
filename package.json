@@ -1,0 +1,23 @@
+{
+  "name": "seanwolfe-website",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-clean": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean3325/seanwolfe-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sean3325/seanwolfe-website/issues"
+  },
+  "homepage": "https://github.com/sean3325/seanwolfe-website#readme"
+}

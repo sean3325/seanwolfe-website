@@ -9,6 +9,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     blankslate (2.1.2.4)
+    breakpoint (2.5.0)
+      sass (~> 3.3)
+      sassy-maps (< 1.0.0)
     classifier-reborn (2.0.4)
       fast-stemmer (~> 1.0)
     coffee-script (2.4.1)
@@ -138,6 +141,8 @@ GEM
     redcarpet (3.3.3)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    sassy-maps (0.4.0)
+      sass (~> 3.3)
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
@@ -168,11 +173,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  breakpoint (= 2.5.0)
   github-pages
   jekyll-assets (= 0.14.0)
-
-RUBY VERSION
-   ruby 2.3.0p0
 
 BUNDLED WITH
    1.12.5

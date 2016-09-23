@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="{{ page.class }} site">
+    <div class="site-content m-scene" id="site-content">
+      <div class="inner">
+
+        <div class="page-content scene_element scene_element--content">
+          {{ content }}
+        </div>
+
+      </div>
+    </div>
+
+    {% javascript seanwolfe.me %}
+  </body>
+
+</html>
