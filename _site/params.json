@@ -1,0 +1,25 @@
+{
+  "name": "seanwolfe.me",
+  "description": "Creating engaging and intuitive experiences for web",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sean3325/seanwolfe-website"
+  },
+  "author": "Sean Wolfe",
+  "homepage": "http://seanwolfe.me",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-browser-sync": "^2.0.0",
+    "grunt-build-control": "^0.3.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-jekyll": "~0.4.2",
+    "grunt-modernizr": "~0.6.0",
+    "jit-grunt": "~0.9.1",
+    "load-grunt-tasks": "~0.6.0",
+    "time-grunt": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
