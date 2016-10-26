@@ -13,6 +13,22 @@ source "https://rubygems.org"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+gem 'bundler', '1.13.6'
+gem 'jekyll', '2.4.0'
+gem 'rack-jekyll', '0.3.5'
+gem 'rake-jekyll', '1.1.0'
+gem 'github-pages', '33'
+gem 'kramdown', '1.5.0'
 gem 'jekyll-assets', '0.14.0'
+gem 'rubyzip', '1.1.7'
+gem 'sass', '>=3.4'
+gem 'uglifier', '2.7.1'
+gem 'compass', '>1.0'
+gem 'respond-to', '2.6'
+gem 'autoprefixer-rails', '5.1.11'
+gem 'compass-normalize', '1.5'
+gem 'octopress-minify-html', '1.2.4'
 gem 'breakpoint', '2.5.0'
+gem 'font-awesome-sass', '~> 4.4.0'
+gem 'jekyll-sitemap', '~> 0.6.3'
+gem 'jekyll-redirect-from'

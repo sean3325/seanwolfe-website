@@ -7,8 +7,45 @@ url: "http://seanwolfe.me" # the base hostname & protocol for your site
 twitter_username: sean3325
 github_username:  sean3325
 
+
 # Build settings
+highlighter: pygments
 markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - 'config.ru'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'vendor'
+  - 'package.json'
+  - 'node_modules'
+  - 'autoprefixer.yml'
+  - 'Gruntfile.js'
+
+# Assets pipeline settings
+assets:
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/posts
+    - _assets/docs
+  css_compressor: sass
+  js_compressor: uglifier
+  cache: true
+  cachebust: hard
 
 gems:
-  - jekyll-assets
+- compass
+- respond-to
+- sass
+- uglifier
+- font-awesome-sass
+- compass-normalize
+- jekyll-assets
+- jekyll-assets/compass
+- jekyll-sitemap
+- jekyll-redirect-from
+# We're using Jekyll < 2.0.0 which defaults the necoding to nil
+encoding: utf-8
