@@ -1,18 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+$break-small: 600px;
+$break-large: 1200px;
+
 html {
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;;
   color: #fff;
-  font-weight: 200;
+  line-height: 1.75;
+  font-size: 1.1rem;
 
-  background: linear-gradient(242deg, #000000, #120d73, #000000);
-  background-size: 600% 600%;
+  background: linear-gradient(219deg, #05080a, #1a2440);
+  background-size: 400% 400%;
 
-  -webkit-animation: AnimationName 28s ease infinite;
-  -moz-animation: AnimationName 28s ease infinite;
-  animation: AnimationName 28s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 
   @-webkit-keyframes AnimationName {
       0%{background-position:0% 50%}
@@ -36,13 +43,24 @@ body {
   height: 100%;
 
   a {
-    color: #fff;
+    color: #53bcff;
     font-weight: bold;
     text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
   }
 }
 
 .inner {
-  max-width: 40%;
+  max-width: 90%;
   margin: 0 auto;
+  @media screen and (min-width: $break-small) {
+    max-width: 40%;
+  }
+}
+
+h2 {
+  font-size: 1.4rem;
+  letter-spacing: .3em;
 }
