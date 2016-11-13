@@ -27,36 +27,35 @@ body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   line-height: 1.75;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 
-  background: linear-gradient(270deg, #8b5fda, #4ab0f0);
-  background-size: 400% 400%;
+  background: linear-gradient(270deg, #5f92f2, #7e4af0, #5f92f2);
+  background-size: 600% 600%;
 
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 30s ease infinite;
 
   @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
   }
   @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
   }
   @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
   }
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
 
   a {
     color: #fff;
