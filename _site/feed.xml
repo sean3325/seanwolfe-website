@@ -5,17 +5,13 @@
     <description>Sean Wolfe</description>
     <link>http://seanwolfe.me/</link>
     <atom:link href="http://seanwolfe.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Nov 2016 11:27:51 -0500</pubDate>
-    <lastBuildDate>Sun, 13 Nov 2016 11:27:51 -0500</lastBuildDate>
+    <pubDate>Sun, 13 Nov 2016 12:10:22 -0500</pubDate>
+    <lastBuildDate>Sun, 13 Nov 2016 12:10:22 -0500</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
         <title>Sean Wolfe</title>
         <description>&lt;p&gt;I’m the creative director at &lt;a href=&quot;https://www.zivtech.com/&quot;&gt;Zivtech&lt;/a&gt; and I help build beautiful websites with really smart people. We use design to help identify and solve the complex and nuanced challenges people are faced with when navigating the web.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/sean3325&quot;&gt;&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;a href=&quot;https://www.linkedin.com/in/seanwolfedesign&quot;&gt;&lt;i class=&quot;fa fa-twitter fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;a href=&quot;mailto:sean3325@gmail.com&quot;&gt;&lt;i class=&quot;fa fa-envelope fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Sep 2016 21:51:37 -0400</pubDate>
         <link>http://seanwolfe.me/jekyll/update/2016/09/21/welcome-to-jekyll.html</link>
