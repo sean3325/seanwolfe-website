@@ -4,17 +4,33 @@
 $break-small: 600px;
 $break-large: 1200px;
 
+// Font variables
+$font-name: "nexascript";
+$font-path-file-name: {{ baseurl }}/assets/fonts/nexascript_regular_macroman/nexascript-regular-webfont;
+
+// font_name font
+@font-face {
+  font-family: $font-name;
+  src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
+  src: url($font-path-file-name+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url($font-path-file-name+'.woff2') format('woff2'), /* Super Modern Browsers */
+       url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
+       url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
+}
+
 html {
   height: 100%;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.75;
   font-size: 1.1rem;
+  font-weight: 100;
 
-  background: linear-gradient(219deg, #05080a, #1a2440);
+  background: linear-gradient(270deg, #8b5fda, #4ab0f0);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 30s ease infinite;
@@ -22,19 +38,19 @@ body {
   animation: AnimationName 30s ease infinite;
 
   @-webkit-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
   }
   @-moz-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
   }
   @keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
   }
 
   display: flex;
@@ -43,11 +59,17 @@ body {
   height: 100%;
 
   a {
-    color: #53bcff;
-    font-weight: bold;
+    color: #fff;
+    font-weight: 400;
     text-decoration: none;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+
     &:hover {
-      color: #fff;
+      color: #53bcff;
     }
   }
 }
@@ -61,6 +83,24 @@ body {
 }
 
 h2 {
-  font-size: 1.4rem;
-  letter-spacing: .3em;
+  font-family: nexascript;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+.fa {
+  display: inline-block;
+  padding: 4px;
+}
+
+.site-logo {
+  display: inline-block;
+  float: left;
+  padding-top: 12px;
+  margin-right: 12px;
 }
