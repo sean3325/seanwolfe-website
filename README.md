@@ -1,2 +1,2 @@
 # seanwolfe-website
-My personal website.
+A one page site built with jekyll.
